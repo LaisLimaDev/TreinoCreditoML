@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings("ignore")
-credit_risk= pd.read_csv("UCI_credit_card.csv")
+credit_risk= pd.read_csv("UCI_Credit_Card.csv")
 print(credit_risk.head())
 df= credit_risk.copy()
 # As we seen Column ID has no meaning here so, we will remove it
